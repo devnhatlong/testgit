@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh; /*chiều cao toàn màn hình*/
+    background: linear-gradient(to right, #4daf54, #3d8880);
+}
+
+.card {
+    margin: 120px auto;
+    width: 320px;
+    height: 400px;
+    background-color: #272d40;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    position: relative;
+}
+
+.card_heart, .card_cart {
+    font-size: 20px;
+    position: absolute;
+}
+
+.card_cart {
+    right: 20px;
+}
+
+.card_img {
+    width: 90%;
+}
+
+.card_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
